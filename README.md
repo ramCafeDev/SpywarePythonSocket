@@ -1,29 +1,15 @@
-# Spyware via PythonSockets
-
-- **Authores:** **AlldDev**, **YRammus**
-- **Orientadores:** **bcmarini**, **Alexandre Queiroz**
-- **Colaboradores:** **Julio Fernandes**, **Diego Fernandes**, **Kayle Evangelista**, **Jean Mendonça**
----
-
 ![Spyware Screenshot 1](https://github.com/AlldDev/Spyware-PythonSocket-V1/blob/main/others/01.png)
 ![Spyware Screenshot 2](https://github.com/AlldDev/Spyware-PythonSocket-V1/blob/main/others/02.png)
 ![Spyware Screenshot 3](https://github.com/AlldDev/Spyware-PythonSocket-V1/blob/main/others/03.png)
 ![Spyware Screenshot 4](https://github.com/AlldDev/Spyware-PythonSocket-V1/blob/main/others/04.png)
 
----
 
-## Projeto de Demonstração de Riscos em Cibersegurança
-
-Este projeto foi desenvolvido exclusivamente para servir como uma base e referência de estudo. Nosso objetivo é conscientizar sobre os perigos associados ao download de softwares não licenciados (crackeados), acesso a sites impróprios, clique em links duvidosos (phishing) e outras falhas, sejam elas humanas ou de sistema.
-
-Projeto apresentado em Feira Científica. ([Ver Certificado](https://github.com/AlldDev/Spyware-PythonSocket-V1/blob/main/others/ECAP-2023-Certificados-Trabalhos-Oral-45-Clicksign.pdf))
-
-## 🛠️ Como Funciona?
+## Python Spyware
 
 O script estabelece uma conexão cliente/servidor, permitindo a troca de dados via sockets de rede. A peculiaridade surge quando invertemos essa conexão: em vez do cliente requisitar ações ao servidor, é o servidor que faz as requisições ao cliente. Utilizando bibliotecas específicas e engenharia reversa, conseguimos enviar comandos e parâmetros para execução na máquina da "vítima". Isso inclui a capacidade de navegar nas pastas, visualizar e até mesmo copiar arquivos para o servidor. O script pode ser hospedado em uma nuvem (por exemplo, AWS), permitindo a recepção de várias conexões (infecções) de diversos clientes (vítimas). Isso possibilita a criação de ataques coordenados ou individuais (em desenvolvimento).
 
 > [!WARNING]
-> Este script pode causar problemas em sua máquina, com terceiros ou com a lei. Reforçamos que ele é exclusivamente destinado a fins educacionais. Não temos a intenção de causar danos a ninguém. Se você não compreende completamente o que está fazendo ou como funciona, por favor, **NÃO INTERAJA**.
+> Este script pode causar problemas em sua máquina, com terceiros ou com a lei. Reforçamos que ele é exclusivamente destinado a fins educacionais. Não tenho a intenção de causar danos a ninguém. Se você não compreende completamente o que está fazendo ou como funciona, por favor, **NÃO INTERAJA**.
 
 ## ⚖️ Ética e Responsabilidade
 
